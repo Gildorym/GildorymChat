@@ -1,0 +1,28 @@
+name: GildorymChat
+author: Lucariatias
+version: 1.4.1
+main: com.gildorymrp.chat.GildorymChat
+depend: [GildorymAPI]
+commands:
+    ch:
+        description: Parent command for all chat commands
+        usage: /<command>
+    chathelp:
+        description: Shows help for chat
+        usage: /<command>
+permissions:
+    gildorym.chat.ch.talkin.[channel]:
+        description: Allows you to talk in a certain channel
+        default: true
+    gildorym.chat.ch.listen.[channel]:
+        description: Allows you to listen to a certain channel
+        default: true
+    gildorym.chat.ch.mute.[channel]:
+        description: Allows you to mute a certain channel
+        default: true
+    gildorym.chat.ch.list:
+        description: Allows you to list channels
+        default: true
+    gildorym.chat.help:
+        description: Allows you to see the help for chat
+        default: true

@@ -1,0 +1,50 @@
+channels:
+  global:
+    colour: GOLD
+    radius: -1
+    format: '&6[%channel%] %ign%: &f%message%'
+    garble-enabled: false
+  say:
+    colour: GREEN
+    radius: 16
+    format: '&a%player% says: &f%message%'
+    garble-enabled: true
+  shout:
+    colour: RED
+    radius: 64
+    format: '&c%player% shouts: &f%message%'
+    garble-enabled: true
+  whisper:
+    colour: GRAY
+    radius: 4
+    format: '&7%player% whispers: &f%message%'
+    garble-enabled: true
+  mod:
+    colour: BLUE
+    radius: -1
+    format: '&9[%channel%] %ign%: &f%message%'
+    garble-enabled: false
+  help:
+    colour: AQUA
+    radius: -1
+    format: '&b[%channel%] %ign%: &f%message%'
+    garble-enabled: false
+  dev:
+    colour: DARK_PURPLE
+    radius: -1
+    format: '&5[%channel%] %ign%: &f%message%'
+    garble-enabled: false
+  dm:
+    colour: DARK_RED
+    radius: -1
+    format: '&4[%channel%] %ign%: &f%message%'
+    garble-enabled: false
+  ooc:
+    colour: DARK_GRAY
+    radius: 16
+    format: '&8[%channel%] %ign%: &8%message%'
+    garble-enabled: false
+emotes:
+  radius: 16
+  format: '&e&o%player% &e&o%message%'
+default-channel: say
